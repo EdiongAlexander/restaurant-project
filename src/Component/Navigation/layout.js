@@ -1,17 +1,17 @@
 import React from "react";
-import footer from './footer'
-import header from './header'
-import sidebar from './sidebar'
+import Footer from './footer/footer'
+import Header from './Header/header'
+import Sidebar from './sidebar'
 
 const Layout = (props)=>{
     return(
         <div>
-            <header />
-            <sidebar />
+            <Header />
+            <Sidebar />
             <main>
                 {props.children}
             </main>
-            <footer />
+            <Footer />
         </div>
     )
 }

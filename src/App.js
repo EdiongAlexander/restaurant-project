@@ -3,12 +3,17 @@ import About from "../src/Component/Pages/About/about"
 import OneColumn from "../src/Component/Pages/Blogs/one_column"
 import TwoColumn from "../src/Component/Pages/Blogs/two_column"
 import SidebarBlog from "../src/Component/Pages/Blogs/sidebar_blog"
+import Footer from './Component/Navigation/footer/footer';
 import Contact from "../src/Component/Pages/Contact/contact"
 import Home from "./Component/Pages/Home/home"
+
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">
+    {/* <Home />
+    <Contact />
+    <Footer /> */}
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
@@ -19,6 +24,7 @@ function App() {
         <Route path='/blog/sidebar' element={<SidebarBlog />} />
       </Routes>
       </BrowserRouter>
+     
     
     </div>
   );

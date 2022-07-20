@@ -1,0 +1,45 @@
+.footer-wrapper{
+    
+    box-sizing: border-box;
+    background-color: #233000;
+    color: white;
+}
+.footer-title{
+    font-size: 30px;
+}
+.footer-content, .footer-media{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-line{
+    border: 1px dashed white;
+    margin-top: 20px;
+}
+.email-subscription{
+    display: flex;
+    justify-content: space-between;
+}
+.email-box{
+    width: 300px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-left: 30px;
+    color: white;
+}
+.subscription-btn{
+    background-color: #5E6600;
+    width: 100px;
+    margin-left: 20px;
+    color: white;
+    border: 1px solid #5E6600;
+    font-weight: bold;
+}
+.subscription-detail{
+    width: 300px;
+    font-size: 12px;
+}
+.social-icons{
+    margin-right: 5px;
+}

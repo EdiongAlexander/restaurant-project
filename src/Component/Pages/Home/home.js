@@ -1,9 +1,14 @@
 import React from 'react'
+import Layout from "../../Navigation/layout"
 
-const menu = () => {
+const Home = () => {
   return (
-    <div>menu</div>
+    <div>
+      <Layout>
+        <div>Home</div>
+      </Layout>
+    </div>
   )
 }
 
-export default menu
+export default Home
