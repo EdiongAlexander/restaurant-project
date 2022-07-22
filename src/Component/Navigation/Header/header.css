@@ -2,5 +2,38 @@ nav {
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-    padding: 0.5em 2em;
+    padding: 2em 2em;
+    color: white;
 }
+
+nav h3{
+    margin-top: 0px;
+}
+
+.number{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+nav button{
+    background: transparent;
+    padding: 0 40px;
+    height: 50px;
+    color: white;
+    border: solid 1px white;
+    margin-top: 0px;
+}
+
+.group, .group2{
+    display: flex;
+    margin-top: 0px;
+}
+.group h3, .group2 button{
+    margin-left: 20px;
+}
+.group p {
+    margin-top: 0px;
+    font-size: x-large;
+}
+
+
