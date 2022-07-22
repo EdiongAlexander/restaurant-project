@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 .footer-content, .footer-media{
-    padding: 40px 60px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -42,4 +42,7 @@
 }
 .social-icons{
     margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
