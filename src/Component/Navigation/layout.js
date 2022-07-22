@@ -1,13 +1,11 @@
 import React from "react";
 import Footer from './footer/footer'
-import Header from './Header/header'
-import Sidebar from './Sidebar/sidebar'
+// import Sidebar from './sidebar'
 
 const Layout = (props)=>{
     return(
         <div>
-            <Header />
-            <Sidebar />
+            {/* <Sidebar /> */}
             <main>
                 {props.children}
             </main>
