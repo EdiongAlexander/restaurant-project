@@ -1,0 +1,116 @@
+.jumbo{
+    background-image: url("../../../../public/Image-menu.png");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin-top: 0;
+    color: white;
+    font-family: 'Rufina', serif;
+}
+.intro{
+    margin-left: 10vw;
+}
+
+.small{
+    font-weight: 400;
+}
+
+.large{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/********************** Starters styles ******************************/
+
+.starter{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Rufina', serif;
+    margin-right: 180px;
+}
+
+.header-r{
+    text-align: center;
+    font-family: 'Rufina', serif;
+    margin-top: 0px;
+}
+
+.starter-r{
+    margin-bottom: 50px;
+}
+
+.head{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.blueberry{
+    height: 250px;
+}
+/***** food ******/
+.food{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* position: relative;
+    bottom: 40px; */
+    margin-top: -15px;
+}
+
+.food-r{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.plate{
+    height: 80vh;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.listing{
+    width: 48%;
+}
+
+.price{
+    font-weight: bold;
+    text-align: right;
+    border-bottom: dashed black 2px;
+    padding-bottom: 10px;
+    font-family: 'Rufina', serif;
+}
+
+.food-name{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Rufina', serif;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.food-desc{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.plate-r{
+    height: 80vh;
+    width: 48%;
+    margin-left: 10%;
+}

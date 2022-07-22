@@ -6,6 +6,7 @@ import SidebarBlog from "../src/Component/Pages/Blogs/sidebar_blog"
 import Footer from './Component/Navigation/footer/footer';
 import Contact from "../src/Component/Pages/Contact/contact"
 import Home from "./Component/Pages/Home/home"
+import Menu from './Component/Pages/Menu/menu';
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/menu' element={<Menu />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog/one-column' element={<OneColumn />} />
