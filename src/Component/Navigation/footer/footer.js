@@ -1,5 +1,7 @@
 import React from 'react'
 import './footer.css'
+import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 
 const footer = () => {
   return (
@@ -16,7 +18,7 @@ const footer = () => {
             <h4>Contact</h4>
             <p>
               <span>+2348120000000</span><br />
-              <span>foodzero@gmail.com</span>
+              <span>info@foodzero.com</span>
             </p>
             <p>
               <span>29 Nkemba street</span><br />
@@ -32,14 +34,15 @@ const footer = () => {
             <div className='subscription-detail'> <small>Join our subscribers and get the best recipes delivered each week!</small></div>
           </div>
         </section>
-      <section className='footer-line'></section>
+        <section className='footer-line'></section>
         <section className='footer-media'>
           <p>&copy; 2022 Zero inc. All right reserved </p>
-          <p>
-            <span className='social-icons'>Twitter</span>
-            <span className='social-icons'>Facebook</span>
-            <span className='social-icons'>Youtube</span>
-            <span>instagram</span>
+          
+          <p >
+            <a className='social-icons' href='https://www.facebook.com'><Icon icon="ant-design:facebook-outlined" /></a>
+            <a href='#' className='social-icons'><Icon icon="ant-design:instagram-outlined" /></a>
+            <a href='#' className='social-icons'><Icon icon="gg:youtube" /></a>
+            <a href='#' className='social-icons'><Icon icon="carbon:logo-twitter" /></a>
           </p>
         </section>
       </div>
