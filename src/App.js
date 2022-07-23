@@ -3,7 +3,6 @@ import About from "../src/Component/Pages/About/about"
 import OneColumn from "../src/Component/Pages/Blogs/one_column"
 import TwoColumn from "../src/Component/Pages/Blogs/two_column"
 import SidebarBlog from "../src/Component/Pages/Blogs/sidebar_blog"
-import Footer from './Component/Navigation/footer/footer';
 import Contact from "../src/Component/Pages/Contact/contact"
 import Home from "./Component/Pages/Home/home"
 import Menu from './Component/Pages/Menu/menu';
