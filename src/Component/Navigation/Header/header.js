@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <nav>
       <div className="group">
-        <p><Icon icon="icon-park-outline:hamburger-button" /></p>
         <h3>FoodZero</h3>
       </div>
       <div className="group2">

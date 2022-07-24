@@ -2,11 +2,13 @@ import React from "react";
 import "./menu.css"
 import Layout from "../../Navigation/layout";
 import Header from "../../Navigation/Header/header"
+import Sidebar from "../../Navigation/Sidebar/sidebar";
 
 const Jumbo = () => {
     return (
         <div className="jumbo">
             <Header />
+            <Sidebar />
             <div className="intro">
                 <p className="large">View Our <br /> New Menu</p>
                 <p className="small">The freshest ingredients for you everyday</p>

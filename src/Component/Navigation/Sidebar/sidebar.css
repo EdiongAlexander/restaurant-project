@@ -1,11 +1,34 @@
 .sidebar-wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 60px 20%;
+    /* padding: 60px 20%; */
     color: white;
-    /* height: 100vh; */
-    /* width: 100vw; */
+    height: 100%;
+    width: 100%;
     background-color: rgba(35, 48, 0, 0.8);
-   
-    
+}
+.nav-wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url("../../../../public/Image-nav.png");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center
+}
+.nav-links{
+    margin: 60px 0 0 20%;
+}
+.nav-links h1{
+    font-size: 40px;
+}
+.nav-contact{
+    margin: 380px 20% 0 0;
+}
+.toggle-nav{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    font-size: x-large;
 }
