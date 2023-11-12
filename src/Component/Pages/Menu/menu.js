@@ -4,7 +4,7 @@ import Layout from "../../Navigation/layout";
 import Header from "../../Navigation/Header/header";
 import Sidebar from "../../Navigation/Sidebar/sidebar";
 import Dishes from "../../../static";
-import Reservation from "./Reservation";
+import Reservation from "./reservations";
 
 const Jumbo = () => {
     return (

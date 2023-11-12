@@ -3,13 +3,19 @@
     background-color: #233000;
     width: 96%;
     max-width: 100%;
+    min-width: 100%;
     color: white;
     font-family: 'Rufina', serif;
-    padding-right: 2%;
-    padding-left: 2%;
     padding-bottom: 30px;
 }
 
+.header-home-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -225,7 +231,7 @@
 }
 
 .articles{
-    width: 42%;
+    width: 45%;
 
 }
 
@@ -248,9 +254,9 @@
     font-family: 'Rufina', serif;
 }
 
-.content{
-    padding-left: 20px;
-}
+/* .content{
+    padding: 0 20px;
+} */
 
 .profile-pix{
     width: 50px;
@@ -258,6 +264,7 @@
 
 .post-details{
     display: flex;
+    align-items: center;
     font-size: small;
     color: #5E6600;
 }
@@ -291,4 +298,8 @@
 .low{
     margin-top: 20px;
     margin-left: 10px;
+}
+
+.creator{
+    white-space: nowrap;
 }

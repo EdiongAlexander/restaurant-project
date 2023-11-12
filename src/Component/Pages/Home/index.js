@@ -2,12 +2,10 @@ import React from 'react'
 import Layout from "../../Navigation/layout"
 import './home.css'
 import './phones.css'
-
-import Upper from './Upper'
-import Menu from './Menu'
-import Cook from './Cook'
-import Editorial from './Editorial'
-import Reservation from '../Menu/Reservation'
+import Upper from './upper'
+import Cook from './cook'
+import Editorial from './editorial'
+import Reservation from '../Menu/reservations'
 
 
 
@@ -16,7 +14,6 @@ const Home = () => {
     <div>
       <Layout>
         <Upper />
-        <Menu />
         <Cook />
         <Editorial />
         <Reservation />

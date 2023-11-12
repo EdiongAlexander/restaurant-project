@@ -33,3 +33,11 @@
     left: 10px;
     font-size: x-large;
 }
+.open-nav{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+.close-nav{
+    cursor: pointer;
+}

@@ -5,8 +5,10 @@ import Sidebar from '../../Navigation/Sidebar/sidebar'
 const Upper = () => {
     return (
       <div className="header-home">
-        <Header />
+        <div className="header-home-flex">
         <Sidebar />
+        <Header />
+        </div>
   
         <div className="container">
           <div className="healthy">
