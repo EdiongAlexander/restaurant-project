@@ -1,0 +1,166 @@
+
+@media screen and (max-width: 600px){
+    .number{
+        display: none;
+    }
+
+    .group2 button{
+        padding: 1px 10px;
+    }
+
+    .logo{
+        width: 120px;
+    }
+
+    .healthy .big{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .healthy .small{
+        font-size: xx-small;
+    }
+
+    .main-img{
+        height: 100px;
+    }
+
+    .three{
+        position: initial;
+    }
+    .spice-img{
+        margin-right: 10px;
+    }
+
+    .rotate{
+        display: none;
+    }
+
+    .larger{
+        font-size: 20px;
+    }
+
+    .container-2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oyster{
+        width: 82%;
+    }
+    
+    .grains{
+        width: 82%;
+    }
+
+    .menu-listings{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .menu-listing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .flexy .small{
+        font-size: xx-small;
+    }
+
+
+    
+.cook{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stacked{
+    width: 100%;
+    position: relative;
+}
+
+.chef{
+    width: 100%;
+    height: 38vh;
+}
+
+.excellent{
+    width: 100%;
+    text-align: center;
+}
+.excellent img{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quality{
+    width: 100%;
+}
+
+.quality p{
+    margin-top: 0;
+}
+
+.editorial-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+.editorial-image img{
+    width: 30px;
+}
+
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.articles{
+    width: 100%;
+
+}
+
+.articles-image{
+    position: relative;
+}
+
+.articles-image img{
+    width: 100%;
+    height: 35vh;
+}
+.content{
+    padding-left: 0px;
+}
+
+.post-details{
+    font-size: xx-small;
+}
+.profile-pix{
+    width: 20px;
+}
+
+.time-details{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.read-more{
+    font-size: xx-small;
+}
+}

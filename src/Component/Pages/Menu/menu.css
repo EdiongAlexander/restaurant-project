@@ -177,3 +177,12 @@ form{
 .touch{
     margin-bottom: 5%;
 }
+
+@media screen and (max-width: 600px){
+.reserve{
+    font-size: 30px;
+}
+.book{
+    width: 20%;
+}
+}

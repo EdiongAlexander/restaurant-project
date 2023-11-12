@@ -15,7 +15,8 @@
     background-image: url("../../../../public/Image-nav.png");
     object-fit: cover;
     background-size: cover;
-    background-position: center
+    background-position: center;
+    z-index: 7;
 }
 .nav-links{
     margin: 60px 0 0 20%;

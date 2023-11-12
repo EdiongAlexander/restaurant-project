@@ -1,0 +1,294 @@
+
+.header-home{
+    background-color: #233000;
+    width: 96%;
+    max-width: 100%;
+    color: white;
+    font-family: 'Rufina', serif;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.healthy{
+    text-align: left;
+    width: 50%;
+    z-index: 3;
+    /* margin-left: 10%; */
+}
+
+.big{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 73px;
+}
+
+.small{
+    font-family: 'Lato', sans-serif;
+}
+
+.rotate{
+    height: 100px;
+    width: 100px;
+    transform: rotate(90deg);
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.image{
+    width: 45%;
+    margin-top: 60px;
+    margin-left: -9%;
+}
+
+.main-img{
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+}
+
+.three{
+    position: relative;
+    bottom: 60px;
+    right: 120px;
+}
+
+.spice-img{
+    width: 20%;
+    margin-right: 25px;
+}
+
+/*******************************************************************/
+.container-2{
+    margin-top: 30px;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.oyster{
+    width: 45%;
+}
+
+.oyster-img, .grains-img{
+    width: 100%;
+}
+
+.grains{
+    width: 30%;
+}
+
+.larger{
+    font-family: 'Rufina', serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*****************************  Menu ****************************/
+
+.menu-menu{
+    margin-left: 6%;
+}
+
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-flex img{
+    width: 40%;
+    margin-top: 0;
+}
+
+.flexy{
+    width: 40%;
+}
+
+.flexy h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+}
+
+.menu-list{
+    margin-right: 6%;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+.menu-listings{
+    width: 45%;
+}
+
+.menu-listing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/************************* Cook ****************************************/
+
+.cook{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: #EBF0E4;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.stacked{
+    width: 55%;
+    position: relative;
+}
+
+.chef{
+    width: 100%;
+    height: 90vh;
+}
+
+.stacked-plate{
+    width: 40%;
+    position: absolute !important;
+    top: 37px !important;
+    left: 5px;
+    z-index: 1;
+}
+
+.leaf{
+    width: 35%;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.excellent{
+    width: 35%;
+}
+.excellent img{
+    width: 70%;
+    margin-top: 30px;
+}
+.excellent h1{
+    font-family: 'Rufina', serif;
+}
+.excellent p{
+    font-family: 'Lato', serif;
+}
+
+/********************************** Editorial **********************************************/
+.editorial{
+    padding: 6% 6%;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.quality{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.editorial-image{
+    background-color: #EBF0E4;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editorial-image img{
+    width: 75px;
+}
+
+/************************ Editorial **********************************/
+
+.article{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.articles{
+    width: 42%;
+
+}
+
+.articles-image{
+    position: relative;
+}
+
+.articles-image img{
+    width: 100%;
+    height: 60vh;
+}
+
+.tag{
+    background-color: #5E6600;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-family: 'Rufina', serif;
+}
+
+.content{
+    padding-left: 20px;
+}
+
+.profile-pix{
+    width: 50px;
+}
+
+.post-details{
+    display: flex;
+    font-size: small;
+    color: #5E6600;
+}
+
+.time-details{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.article-title{
+    font-family: 'Rufina', serif;
+    border-bottom: dashed black 2px;
+    padding-bottom: 20px;
+}
+
+.article-description{
+    font-family: 'Lato', serif;
+    color: #4D4D4D;
+}
+
+.read-more img{
+    width: 50px;
+    border: solid 1px black;
+}
+
+.read-more p{
+    font-size: larger;
+}
+
+.low{
+    margin-top: 20px;
+    margin-left: 10px;
+}

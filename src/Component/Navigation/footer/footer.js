@@ -1,7 +1,6 @@
 import React from 'react'
 import './footer.css'
 import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
 
 const footer = () => {
   return (
@@ -40,9 +39,9 @@ const footer = () => {
           
           <p >
             <a className='social-icons' href='https://www.facebook.com'><Icon icon="ant-design:facebook-outlined" /></a>
-            <a href='#' className='social-icons'><Icon icon="ant-design:instagram-outlined" /></a>
-            <a href='#' className='social-icons'><Icon icon="gg:youtube" /></a>
-            <a href='#' className='social-icons'><Icon icon="carbon:logo-twitter" /></a>
+            <a href='instagram.com' className='social-icons'><Icon icon="ant-design:instagram-outlined" /></a>
+            <a href='youtube.com' className='social-icons'><Icon icon="gg:youtube" /></a>
+            <a href='twitter.com' className='social-icons'><Icon icon="carbon:logo-twitter" /></a>
           </p>
         </section>
       </div>
