@@ -4,7 +4,7 @@ import OneColumn from "../src/Component/Pages/Blogs/one_column"
 import TwoColumn from "../src/Component/Pages/Blogs/two_column"
 import SidebarBlog from "../src/Component/Pages/Blogs/sidebar_blog"
 import Contact from "../src/Component/Pages/Contact/contact"
-import Home from "./Component/Pages/Home/home"
+import Home from "./Component/Pages/Home"
 import Menu from './Component/Pages/Menu/menu';
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
