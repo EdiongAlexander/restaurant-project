@@ -9,9 +9,11 @@ import Reservation from "./reservations";
 const Jumbo = () => {
     return (
         <div className="jumbo">
+            <div className="flex mt-6 w-full border border-solid border-[#186F3D]">
             <Header />
             <Sidebar />
-            <div className="intro">
+            </div>
+            <div className="">
                 <p className="large">View Our <br /> New Menu</p>
                 <p className="small">The freshest ingredients for you everyday</p>
             </div>

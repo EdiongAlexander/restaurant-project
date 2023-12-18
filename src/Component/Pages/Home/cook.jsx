@@ -4,8 +4,8 @@ const Cook = () => {
     return(
       <div className="cook">
         <div className="stacked">
-          <img src="man-in-black-crew-neck-t-shirt-eating 1.png" alt="chef" className='chef'/>
-          <img src="brown-wooden-round-plate-with-food 1.png" alt="plate" className='stacked-plate'/>
+          <img src="./tinified/man-in-black-crew-neck-t-shirt-eating 1.png" alt="chef" className='chef'/>
+          <img src="./tinified/brown-wooden-round-plate-with-food 1.png" alt="plate" className='stacked-plate'/>
           <img src="Leaf-small.png" alt="leaf" className='leaf'/>
         </div>
   

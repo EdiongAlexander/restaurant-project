@@ -35,8 +35,8 @@ const Editorial = () => {
         <div className="article">
           <div className="articles">
             <div className="articles-image">
-              <img src="Feature Image-guava.png" alt="guava" />
-              <span className="tag">Fashion</span>
+              <img src="./tinified/Feature Image-guava.png" alt="guava" />
+              <span className="tag">Food</span>
             </div>
   
             <div className="content">
@@ -63,8 +63,8 @@ const Editorial = () => {
 
           <div className="articles">
             <div className="articles-image">
-              <img src="Feature Image-guava.png" alt="guava" />
-              <span className="tag">Fashion</span>
+              <img src="./tinified/Feature Image-guava.png" alt="guava" />
+              <span className="tag">Food</span>
             </div>
   
             <div className="content">

@@ -6,6 +6,7 @@ import Upper from './upper'
 import Cook from './cook'
 import Editorial from './editorial'
 import Reservation from '../Menu/reservations'
+import Menu from './menu'
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
     <div>
       <Layout>
         <Upper />
+        <Menu />
         <Cook />
         <Editorial />
         <Reservation />
