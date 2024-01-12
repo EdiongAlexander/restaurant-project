@@ -8,10 +8,12 @@ import Reservation from "./reservations";
 
 const Jumbo = () => {
     return (
-        <div className="jumbo">
-            <div className="flex mt-6 w-full border border-solid border-[#186F3D]">
-            <Header />
+        <div className="jumbo px-12">
+            <div className="flex justify-between pt-4 items-center">
+
             <Sidebar />
+            <Header />
+            
             </div>
             <div className="">
                 <p className="large">View Our <br /> New Menu</p>
@@ -53,7 +55,7 @@ const Starters = () => {
 
 const Mains = () => {
     return (
-        <div>
+        <div className="mt-24">
             <div className="starter-r">
                 <div className="header-r">
                     <p className="head">Mains</p>
@@ -82,8 +84,8 @@ const Mains = () => {
 const Pastries = () => {
     return (
         <div className="wines">
-            <div className="starter-r  pastries">
-                <div className="header-r">
+            <div className="starter-r  pastries flex justify-center">
+                <div className="header-r text-center">
                     <p className="head">Pastries & Drinks</p>
                     <p className="subtitle">We have assorted patries and drinks</p>
                     <img src="Avocado.png" alt="Avocado" className="avocado" />

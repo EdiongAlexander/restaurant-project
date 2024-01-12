@@ -12,6 +12,7 @@
     width: 100%;
     position: absolute;
     top: 0;
+    left: 0;
     background-image: url("../../../../public/Image-nav.png");
     object-fit: cover;
     background-size: cover;

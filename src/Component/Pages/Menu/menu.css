@@ -117,7 +117,8 @@
 
 .avocado{
     height: 200px;
-    margin-top: -200px;
+    margin-top: -150px;
+    margin-left: 100px;
     z-index: -1;
 }
 

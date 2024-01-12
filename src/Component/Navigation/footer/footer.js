@@ -9,8 +9,8 @@ const footer = () => {
         <section className='footer-content'>
           <div className='footer-title'>
             <h1>
-              <span>Food</span><br />
-              <span> Zero.</span>
+              <span className='text-[34px] leading-[41px]'>Food</span><br />
+              <span className='text-[34px] leading-[41px]'> Zero.</span>
             </h1>
           </div>
           <div>
@@ -37,7 +37,7 @@ const footer = () => {
         <section className='footer-media'>
           <p>&copy; 2022 Zero inc. All right reserved </p>
           
-          <p >
+          <p className='flex'>
             <a className='social-icons' href='https://www.facebook.com'><Icon icon="ant-design:facebook-outlined" /></a>
             <a href='instagram.com' className='social-icons'><Icon icon="ant-design:instagram-outlined" /></a>
             <a href='youtube.com' className='social-icons'><Icon icon="gg:youtube" /></a>

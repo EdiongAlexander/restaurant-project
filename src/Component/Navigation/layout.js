@@ -4,7 +4,7 @@ import Footer from './footer/footer'
 
 const Layout = (props)=>{
     return(
-        <div>
+        <div className="w-full h-full">
             
             <main>
                 

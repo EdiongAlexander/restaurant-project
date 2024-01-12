@@ -16,13 +16,9 @@ const Sidebar = () => {
   
   return (
     <>
-      <div className="side-container">
+      <div className="side-container z-[10000000000000] m-0 p-0">
         {open ? (
-          <p className="toggle-nav">
-            <span className="open-nav" onClick={openToggle}>
-              <Icon icon="icon-park-outline:hamburger-button" />
-            </span>
-          </p>
+          <img src='./open-menu.svg' alt='menu-icon' onClick={openToggle} className='w-[52px] h-[52px] cursor-pointer'/>
         ) : (
           <div className="nav-wrapper">
             <div className="sidebar-wrapper">
@@ -33,12 +29,12 @@ const Sidebar = () => {
                   </span>
                 </p>
                 <ul>
-                  <li>
-                    <h1>Home</h1>
+                  <li className='cursor-pointer'>
+                    <Link to="/"><h1>Home</h1></Link>
                   </li>
 
-                  <li>
-                    <h1><Link to="/menu"/>Menu</h1>
+                  <li className='cursor-pointer'>
+                  <Link to="/menu"><h1>Menu</h1></Link>
                   </li>
                   <li>
                     <h1>Blogs</h1>

@@ -7,7 +7,7 @@ const Header = () => {
       <div className="group">
         <img src="./Logo.png" className="logo" alt="logo"/>
       </div>
-      <div className="group2">
+      <div className="group2 flex items-center">
         <p className="number">+234123567890</p>
         <button>Reservations</button>
       </div>
